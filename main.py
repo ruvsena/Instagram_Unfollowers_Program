@@ -42,6 +42,7 @@ sleep(3)
 print("takipçi listesine gidildi")
 
 sayac=0
+##### use set metod##############
 
 pop_up_window = WebDriverWait(
     browser, 2).until(EC.presence_of_all_elements_located(
